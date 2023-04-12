@@ -1,0 +1,26 @@
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;   
+}
+/* To get navbar to sit on top of the carousel. (position:absolute;) will move the navbar*/
+.navbar{
+    position:fixed;
+    width:100%;
+    z-index:10;
+    max-width:100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+  /* make the imgs the same height in the card */  
+.card-img-top {
+    width: 100%;
+    min-height: 15vw;
+    object-fit: cover;
+}

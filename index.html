@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="./assets/img/viajes.svg">
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Viajes Chile</title>
+</head>
+<body>
+
+    <!-- Barra de navegación fija y transparente con links a secciones y smooth scroll-->
+    <nav class="navbar sticky-top navbar-expand-lg bg-transparent" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="logo" width="30" height="24" class="d-inline-block align-text-top"> Viajes Chile</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">              
+              <a class="nav-link" href="#">Inicio</a>
+              <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
+              <a class="nav-link" href="#destacados">Destacados</a>
+              <a class="nav-link" href="#contacto">Contacto</a>             
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Carousel de 3 imagenes -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Inicio de sección principal -->
+    <div class="container-fluid bg-dark text-white text-center">
+
+      <!-- Sección QUIENES SOMOS con 3 favicons (fontawesome). Desaparece en Mobile view -->
+        <div id="quienes-somos" class="container d-none d-md-block">
+            <h2 class="pt-5 pb-3">¿QUIÉNES SOMOS?</h2>
+            <hr class="border border-light border-1 opacity-25">
+            <div class="container text-start pt-5">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <div class="container bg-info text-center"><i class="fa-solid fa-plane fa-2x"></i></div>                   
+                    <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquam praesentium nemo, incidunt laboriosam consequuntur iste? Sequi soluta modi ullam, magni rerum, consequuntur reiciendis nobis dicta neque ratione dignissimos ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ab suscipit nihil reiciendis ipsam? Nihil non odit sit illum quasi, cupiditate magni ipsum, numquam assumenda deserunt ea similique ratione amet? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur itaque recusandae nobis at voluptates minima libero ea aperiam repellat qui, quia dicta maxime rerum consectetur ut reiciendis culpa. Earum, ad.</p>                    
+                  </div>
+                  <div class="col">
+                    <p class="pb-3">>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque impedit, rem dicta accusamus dignissimos ullam modi saepe dolore aliquid repudiandae perferendis, numquam doloribus. Molestiae ipsum tenetur a at, sunt perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ab suscipit nihil reiciendis ipsam? Nihil non odit sit illum quasi, cupiditate magni ipsum, numquam assumenda deserunt ea similique ratione amet? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur itaque recusandae nobis at voluptates minima libero ea aperiam repellat qui, quia dicta maxime rerum consectetur ut reiciendis culpa. Earum, ad.</p>
+                    <div class="container bg-info text-center"><i class="fa-solid fa-mountain fa-2x"></i></div>
+                  </div>
+                  <div class="col">
+                    <div class="container bg-info text-center"><i class="fa-solid fa-route fa-2x"></i></div>                   
+                    <p class="pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur mollitia saepe deleniti necessitatibus. Ducimus voluptate sed, numquam, iusto doloremque optio quos ratione quo repudiandae molestias quas dicta vitae, assumenda dolores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ab suscipit nihil reiciendis ipsam? Nihil non odit sit illum quasi, cupiditate magni ipsum, numquam assumenda deserunt ea similique ratione amet? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur itaque recusandae nobis at voluptates minima libero ea aperiam repellat qui, quia dicta maxime rerum consectetur ut reiciendis culpa. Earum, ad.</p>                  
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- Fin de QUIENES SOMOS -->
+
+        <!-- Inicio de DESTACADOS -->
+        <div id="destacados" class="container pt-3">
+            <h2 class="pt-5 pb-3">DESTACADOS</h2>
+            <hr class="border border-light border-1 opacity-25">
+            <!-- Bloque de 1 fila con 4 columnas -->
+            <div class="container text-start">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 pt-5">
+                  <!-- Col 1 -->
+                  <div class="col mb-3">
+                    <div class="card bg-info text-light h-100 w-100 mx-auto">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="card1">
+                        <div class="card-body">  
+                            <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>                          
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas molestiae explicabo accusantium vero illum nihil illo aliquam quod inventore quaerat facere voluptatibus blanditiis, doloremque, ex dolorum aliquid esse pariatur exercitationem!</p>                            
+                        </div>
+                  </div>
+                </div>
+                <!-- Col 2 -->
+                  <div class="col mb-3">
+                    <div class="card bg-info text-light h-100 w-100 mx-auto">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="card2">
+                        <div class="card-body">  
+                            <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>                          
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas molestiae explicabo accusantium vero illum nihil illo aliquam quod inventore quaerat facere voluptatibus blanditiis, doloremque, ex dolorum aliquid esse pariatur exercitationem! lor</p>                            
+                        </div>
+                  </div>
+                  </div>
+                  <!-- Col 3 -->
+                  <div class="col mb-3">
+                    <div class="card bg-info text-light h-100 w-100 mx-auto">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="card3">
+                        <div class="card-body">  
+                            <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>                          
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas molestiae explicabo accusantium vero illum nihil illo aliquam quod inventore quaerat facere voluptatibus blanditiis, doloremque, ex dolorum aliquid esse pariatur exercitationem!</p>                            
+                        </div>
+                  </div>
+                  </div>
+                  <!-- Col 4 -->
+                  <div class="col mb-3">
+                    <div class="card bg-info text-light h-100 w-100 mx-auto">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="card4">
+                        <div class="card-body">  
+                            <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>                          
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas molestiae explicabo accusantium vero illum nihil illo aliquam quod inventore quaerat facere voluptatibus blanditiis, doloremque, ex dolorum aliquid esse pariatur exercitationem!</p>                            
+                        </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- Fin de DESTACADOS -->
+        <!-- Inicio de FORMULARIO -->
+        <div id="contacto" class="container pb-5 pt-3">
+            <h2 class="pt-5 pb-3">CONTACTO</h2>
+            <hr class="border border-light border-1 opacity-25">
+            <form class="text-start pt-3">
+                <div class="mb-3">
+                  <label for="inputName1" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="mb-3">
+                    <label for="inputAsunto" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">       
+                </div>
+                <div class="mb-3">
+                  <label for="inputName1" class="form-label">Mensaje</label>
+                  <textarea class="form-control" aria-label="With textarea" style="height: 100px"></textarea>
+                </div>
+                <!-- Alert con JS -->
+                <div class="text-start">
+                  <button id="enviarMensaje" type="submit" class="btn btn-info text-light">Enviar</button>
+                </div>      
+              </form>
+        </div>
+        <!-- Fin de FORMULARIO -->
+    </div> 
+    <!-- Fin de sección principal -->
+
+    <!-- Footer con links a redes sociales -->
+    
+
+
+
+      <script src="https://kit.fontawesome.com/ee710fdd69.js" crossorigin="anonymous"></script>
+    
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+  
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+      
+      <script src="assets/js/script.js"></script>
+</body>
+</html>
