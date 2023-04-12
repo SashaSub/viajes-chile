@@ -7,3 +7,10 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $(".nav-link").on("click", function(){
+        $(this).css({
+            "color": "red"
+        });
+    });
+});
