@@ -23,7 +23,8 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">              
+            <div class="navbar-nav ms-auto">    
+              <!-- JS cambiar color de nav-link con clic           -->
               <a class="nav-link" href="#">Inicio</a>
               <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
               <a class="nav-link" href="#destacados">Destacados</a>
@@ -133,7 +134,7 @@
               </div>
         </div>
         <!-- Fin de DESTACADOS -->
-        <!-- Inicio de FORMULARIO -->
+        <!-- Inicio de FORMULARIO con tooltips para cada input-->
         <div id="contacto" class="container pb-5 pt-3">
             <h2 class="pt-5 pb-3">CONTACTO</h2>
             <hr class="border border-light border-1 opacity-25">
@@ -148,7 +149,10 @@
                 </div>
                 <div class="mb-3">
                   <label for="inputName1" class="form-label">Mensaje</label>
-                  <textarea class="form-control" aria-label="With textarea" style="height: 100px"></textarea>
+                  <textarea class="form-control" aria-label="With textarea" style="height: 100px"
+                  data-bs-toggle="tooltip"
+                  data-bs-custom-class="custom-tooltip"
+                  data-bs-title="Escribir el mensaje"></textarea>
                 </div>
                 <!-- Alert con JS -->
                 <div class="text-start">

@@ -24,3 +24,8 @@ a {
     min-height: 15vw;
     object-fit: cover;
 }
+
+/* change the colour of the tooltip */
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-info);
+}
